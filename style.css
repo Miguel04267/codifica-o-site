@@ -1,0 +1,245 @@
+* {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0CAAC6;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 65px;
+}
+
+table {width: 100%;
+    height: 98vh;
+    text-align: center;}
+
+td{width: 5.5%;
+    height: 10%;} 
+
+
+#linha1{
+text-align: right;
+}
+
+#linha2{height: 1%;
+    width: 5%;
+}
+
+#logo{width: 90%;
+}
+
+input {
+    width: 100px;
+    height: 5vh;
+    text-align: left ;
+    border-radius:50px ;
+    border: solid #0CAAC6 1px;
+}
+    
+#tdlogo { width: 10%;}
+
+#Quem{width: 6%;
+        height: 4%;
+    vertical-align: top;
+    color: #0CAAC6;
+    text-transform: capitalize;
+}
+
+#Acessórios{width: 10%;
+    height: 4%;
+    vertical-align: top;
+    color: #0CAAC6;
+    text-transform: capitalize;
+}
+
+#linha3 svg{width: 300px;
+    height: 200px;
+    
+}
+
+#perfil svg{width: 20%;
+}
+
+#treslinhas svg{
+    width: 50%;
+}
+
+#Gabinete{
+    vertical-align: top;
+    color: #0CAAC6;
+
+}
+
+#Hardware{
+    vertical-align: top;
+    color: #0CAAC6;
+    
+}
+
+#Perifericos{
+    vertical-align: top;
+    color: #0CAAC6;
+    
+}
+#treslinhas #menu {
+    visibility: hidden;
+    z-index: 1;
+    border: black 1px solid;
+    border-radius: 6px;
+    position: absolute;
+    right: 50px;
+}
+
+#treslinhas:hover #menu {
+    visibility: visible;
+}
+
+#tituloquemsomos{
+    color: #013070;
+}
+
+#tdproposta{
+    text-align: start;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.header-logo {
+    width: 100px;
+}
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+.search-bar input {
+    width: 80%;
+    padding: 8px;
+    border : 1px solid #0CAAC6;
+    border-radius: 50px;
+}
+.profile-icon, .menu-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 10;
+}
+.menu li {
+    padding: 8px;
+}
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+.menu-icon:hover + .menu, .menu:hover {
+    display: block;
+}
+.main-content {
+    width: 80%;
+    margin: 20px auto;
+}
+.main-content h1 {
+    color: #013070;
+    margin-bottom: 10px;
+}
+.main-content p {
+    margin-bottom: 20px;
+}
+.main-content ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.main-content li {
+    margin-bottom: 5px;
+}
+.quemsomos{
+    color: #013070;
+}
+#ordenar{
+    color: #013070;
+}
+#Atendimento{
+ vertical-align: top;   
+ text-align: left;
+}
+
+#telefone{
+    vertical-align: top;
+    background-color: #D9D9D9;
+}
+#balao{
+    vertical-align: top;
+    background-color: #D9D9D9;
+}
+#email{
+    vertical-align: top;
+    background-color: #D9D9D9;
+}
+#horario{
+    vertical-align: bottom;
+    
+}
+.formulario{
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.caixas {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.button {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
